@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Test1 {
+
+        public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Please insert any number :\t");
+                int num = sc. nextInt();
+                boolean is Prime = true:
+                for (int i = 2; i<num ; i++) {
+                        if(num%i==0) {
+                                isPrime = false;
+                                break;
+                        }                                }
+                }
+                if(isPrime) {
+                        System.out.print(nium + " is PRIME number.\n");
+                } else {
+                        System.out.print(num + " is not prime number.\n");
+                }
+                
+         }
+         
+}         
